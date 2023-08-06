@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>News2000</title>
+</head>
+<body>
+    <header class="container-fluid p-2 text-center">
+        <nav class="nav navbar navbar-nav navbar-dark">
+            <h1><a class="link-dark" style="text-decoration: none;" href="index.html">News2000</a></h1>
+        </nav>
+    </header>
+    <hr class="pt-0 mt-0">
+    <main class="container-fluid p-0 justify-content-center">
+        <section class="p-5 m-5 shadow-sm text-break" id="sapo">
+            <h3>Sapo é detido por acusação inicial, mas investigação revela atividades surpreendentes</h3>
+            <p>
+                Na manhã de hoje, o sapo cururu foi detido pela polícia sob acusação de não lavar os pés. 
+                No entanto, durante a investigação, as autoridades descobriram algo ainda mais surpreendente: 
+                o sapo mantinha em sua residência um grande número de moscas que pareciam ter sido sequestradas, 
+                totalizando aproximadamente 150 indivíduos.
+                <br><br>
+                O acusado nega veementemente as alegações e as provas estão sendo minuciosamente examinadas 
+                para determinar a verdade por trás desses acontecimentos intrigantes. 
+                <br><br>
+                A polícia está conduzindo uma investigação abrangente para esclarecer o mistério por 
+                trás do sequestro das moscas e o motivo por trás da acusação inicial.
+                <br><br>
+                Enquanto a investigação prossegue, as pererecas e rãs da região optaram por não se 
+                pronunciar publicamente sobre o assunto. Os moradores da área estão ansiosos por novos detalhes, 
+                e a imprensa continuará acompanhando de perto o desdobramento desse caso inusitado.
+            </p>
+        </section>
+        <section class="p-5 m-5 shadow-sm text-break" id="formigas">
+            <h3>Greve de formigas operárias causa danos em andares do formigueiro em Santa Catarina</h3>
+            <p>
+                Um movimento de greve entre as formigas operárias no estado de Santa Catarina (SC) está 
+                causando preocupação e danos significativos nos andares do formigueiro.
+                <br><br>
+                As reivindicações dos trabalhadores abrangem questões como excesso de carga horária 
+                e alegações de que a rainha não está cumprindo adequadamente seu papel de reprodução, 
+                o que resulta em sobrecarga de trabalho para as formigas mais jovens.
+                <br><br>
+                As tensões têm se intensificado à medida que as formigas operárias expressam suas insatisfações 
+                e reivindicações. Como resultado, diversos andares do formigueiro foram afetados, prejudicando 
+                a estrutura interna e levando à interrupção das atividades normais.
+                <br><br>
+                As autoridades e especialistas em entomologia estão monitorando de perto a situação, 
+                buscando compreender as razões por trás da greve e buscando soluções para restaurar a harmonia 
+                dentro do formigueiro. É essencial encontrar um equilíbrio entre as necessidades da colônia e as 
+                demandas dos trabalhadores para que o funcionamento do formigueiro seja restaurado de forma pacífica 
+                e sustentável.
+                <br><br>
+                Espera-se que as lideranças formigueiras e os representantes das operárias dialoguem para encontrar 
+                um terreno comum que atenda aos interesses de ambas as partes e permita que a comunidade de formigas 
+                retome suas atividades produtivas de maneira saudável e cooperativa. Enquanto isso, a população de 
+                formigas está ciente da situação e aguarda ansiosamente por atualizações sobre o progresso das 
+                negociações.
+            </p>
+        </section>
+    </main>
+    <footer class="container-fluid align-items-center m-0 p-0">
+        <p id="copyright" class="text-center bg-dark m-0 p-2 text-light"></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        const myfooter = document.querySelector('#copyright');
+        const dataAtual = new Date();
+        const anoAtual = dataAtual.getFullYear();
+        myfooter.innerHTML = `&#169; ${anoAtual} <br> Desenvolvido por Natalia Bezerra`;
+    </script>
+</body>
+</html>
